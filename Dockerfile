@@ -1,11 +1,10 @@
-# Set the base image to latest python
-FROM python
+# Use the jupyter datascience notebook image and add Mesa
+FROM jupyter/datascience-notebook
 
 # File Author / Maintainer
 MAINTAINER Chance Hohensee
 
 # Install mesa
-RUN pip3 install mesa
+RUN pip install mesa
 
-# Add matplotlib
-RUN apt-get update -qq && apt-get -y install python3-matplotlib
+# Install argeparse
