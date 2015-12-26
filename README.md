@@ -1,0 +1,1 @@
+This Dockerfile adds [Mesa](https://github.com/projectmesa/mesa) to the [Jupyter Notebook Data Science Stack](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook). It creates a basic Emacs environment for working with R and Python. 
